@@ -36,10 +36,9 @@ const NavBar = () => {
                         </li>
                     ))}
                 </ul>
-
             </nav >
         </>
-    )
-}
+    );
+};
 
 export default NavBar
