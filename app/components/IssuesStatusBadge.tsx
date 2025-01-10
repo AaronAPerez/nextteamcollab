@@ -3,6 +3,9 @@ import { Badge } from '@radix-ui/themes'
 import React from 'react'
 
 
+// interface Props {
+//     status: Status
+// }
 
 const statusMap : Record<Status,{label:string,color:'red'| 'violet'|'green'}> = {
     OPEN: {label: 'Open',color: 'red'},
