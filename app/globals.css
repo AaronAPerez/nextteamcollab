@@ -27,7 +27,6 @@ body {
 }
 .radix-themes {
 	--default-font-family: var(--font-inter);
-<<<<<<< HEAD
 }
 h1 {
   color: azure!important;
@@ -40,6 +39,4 @@ strong{
   .nav-link {
     @apply text-zinc-600 hover:text-zinc-300 transition-colors
   }
-=======
->>>>>>> 835c5007b58c3975191dabeff4ef4c7d26a04933
 }
