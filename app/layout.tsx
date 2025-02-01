@@ -7,7 +7,8 @@ import { Inter } from "next/font/google";
 import NavBar from "./NavBar";
 
 import QueryClientProvider from "./QueryClientProvider";
-import AuthProvider from "./api/auth/Provider";
+import AuthProvider from "./auth/Provider";
+
 
 const inter = Inter({
   subsets: ["latin"],
