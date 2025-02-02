@@ -5,10 +5,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import NavBar from "./NavBar";
-
-import QueryClientProvider from "./QueryClientProvider";
 import AuthProvider from "./auth/Provider";
-
+import QueryClientProvider from "./QueryClientProvider";
 
 const inter = Inter({
   subsets: ["latin"],

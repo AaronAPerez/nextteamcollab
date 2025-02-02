@@ -6,9 +6,6 @@ import { useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 import toast, { Toaster } from 'react-hot-toast'
 
-
-
-
 const  AssigneeSelect = ({issue}:{issue:Issue}) => {
 
 

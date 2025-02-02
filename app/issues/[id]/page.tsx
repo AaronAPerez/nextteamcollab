@@ -6,16 +6,14 @@ import IssueDetails from "./IssueDetails";
 import DeleteIssueButton from "./DeleteIssueButton";
 import { getServerSession } from "next-auth";
 import authOptions from "@/app/auth/authOptions";
-import AssigneeSelect from "./AssigneeSelect";
+import AssigneeSelect from "./ AssigneeSelect";
 
 
 
-
-const IssuesDetailPage = async (props: { params: Promise<{ id: string }> }) => {
-  const params = await props.params;
+const IssuesDetailPage = async ({ params }: { params: { id: string } }) => {
 
 
-  const sessions = await getServerSession(authOptions)
+    const sessions = await getServerSession(authOptions)
 
   const issue = await prisma.issue.findUnique({
     where: { id: parseInt(params.id) },

@@ -1,8 +1,8 @@
-
+import { Status } from '@prisma/client';
 import { Card, Flex, Text } from '@radix-ui/themes';
+import classNames from 'classnames';
 import Link from 'next/link';
 import React from 'react'
-import { Status } from '@prisma/client';
 
 
 // interface Props {
