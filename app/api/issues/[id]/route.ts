@@ -57,7 +57,7 @@ export async function DELETE(request:NextRequest, props: {params: Promise<{id:st
     const sessions = await getServerSession(authOptions)
 
     if(!sessions) 
-       return NextResponse.json({}),{status: 401};
+       return NextResponse.json({},{status: 401});
 
 
 
